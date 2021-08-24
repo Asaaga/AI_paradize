@@ -1,0 +1,79 @@
+*{
+	padding:0px;
+	margin:0px;
+
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+body{
+	background-color:#004cf9;
+}
+.container{
+	height:500px;
+	width:800px;
+	border: 2px;
+	background-color:#d7d7da;
+	align-content:center;
+	border-radius:2px;
+	margin-top:100px;
+	margin-left:300px;
+}
+.container .blue{
+	height:250px;
+	width:800px;
+	border: 2px;
+	border-radius:2px;
+	background-color:#0023f7;
+}
+
+.container .blue .facebook{
+	color:white;
+	float:left;
+
+}
+.container .blue .login{
+	color:white;
+	float:right;
+}
+.container .blue .writeUp{
+	margin-top:70px;
+	margin-left:250px;
+	color:white;
+
+}
+.container .form{
+	margin-top: -40px; 
+	z-index: 1000;
+	background-color: #fff; 
+	margin-left: 220px;
+	opacity: 1;
+	height:250px;
+	width:300px;
+}
+input{
+	padding:5px 5px 5px 5px;
+}
+
+.container  #Sign{
+	background-color:blue;
+	height:40px;
+	width:270px;
+	text-align:center;
+	color:white;
+	margin-top:20px;
+	margin-left:10px;
+}
+.container #name{
+	width:250px;
+	margin-top:20px;
+	margin-left:10px;
+}
+.container #email{
+	width:250px;
+	margin-top:20px;
+	margin-left:10px;
+}
+.container #password{
+	width:250px;
+	margin-top:20px;
+	margin-left:10px;
+}

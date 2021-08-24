@@ -1,0 +1,55 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+}
+.twist{
+	height:400px;
+	width:450px;
+	background-color:white;
+	text-align:center;
+	margin:auto;
+	margin-top:50px;
+	border-radius: 15px;
+}
+body{
+	background-color:#cfdfdd;
+}
+input{
+	height:60px;
+	width:400px;
+	margin-top: 20px;
+	font-size:20px;
+}
+a{
+	font-size: 20px;
+}
+.twist .twit{
+	background-color:white;
+	float:left;
+	color:white;
+}
+.twist #login{
+	background-color:#53bbf6;
+	font-family:Bernard MT Condensed;
+	border: 1px solid #53bbf6;
+	font-size: 25px;
+	color:white;
+	border-radius:25px;
+}
+.twist .TT{
+	font-size:20px;
+	font-family:Bernard MT Condensed;
+	margin-top: 20px;
+}
+.twist #aa{
+	margin-top: 20px;
+}
+.twist #name{
+	border: solid #cfdfdd;
+	border-radius:5px;
+}
+.twist #pass{
+	border: solid #cfdfdd;
+	border-radius:5px;
+}

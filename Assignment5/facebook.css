@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+body{
+	background-color: #c5c6d0;
+	
+}
+.container .outside{
+	height:300px;
+	width: 350px;
+	position:flex;
+	float:left;
+	margin-top: 120px;
+	margin-left:60px;
+}
+.container .outside .facebook{
+	font-size:100px; 
+	font-family: Arial Rounded MT Bold, sans-serif;
+	color: blue;
+}
+.container .outside bold{
+	color:black;
+	font-size:30px;
+}
+.container .login{
+	height: 340px;
+	width: 300px;
+	margin-right: 60px;
+	margin-top: 20px;
+	background-color:white;
+	float: right;
+	align-content:center;
+	text-align: center;
+	position: flex;
+	border-radius: 20px;
+}
+.container .login #name{
+	margin-top:10px;
+	border-radius:5px;
+	padding: 5px 5px 5px 5px;
+	height:30px;
+	width:250px;
+	color:white;
+
+}
+.container .login #password{
+	margin-top:20px;
+	border-radius:10px;
+	height:30px;
+	width:250px;
+	color:white;
+	padding: 5px 5px 5px 5px;
+}
+.container .login #LoginBttn{
+	margin-top:20px;
+	border-radius:10px;
+	background-color:blue;
+	align-content: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	height:30px;
+	width:250px;
+	color:white;
+}
+
+.container .login #forgot{
+	margin-top:35px;
+	color:blue;
+}
+
+.container .login #line{
+	margin-top:15px;
+}
+.container .login #newAccount{
+	margin-top:20px;
+	background-color: green;
+	border-radius:10px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	height:30px;
+	width:250px;
+	color:white;
+
+}
+.container .login .cele{
+	margin-top: 60px;
+}

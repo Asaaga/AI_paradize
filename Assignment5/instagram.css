@@ -1,0 +1,68 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+.container{
+	margin: auto;
+	margin-top:30px;
+	height:520px;
+	width:300px;
+	position: flex;
+	text-align: center;
+	align-content:center;
+	background-color:#c5c6d0;
+}
+.container h2{
+	font-family: 'Lucida Handwriting';
+}
+.container #log{
+	color:white;
+	height:40px;
+	border-radius:5px;
+	padding-top:15px;
+	color:white;
+	margin:auto;
+	width:190px;
+	margin-top: 20px;
+	background-color: blue;
+	}
+	a{
+	text-decoration:none;
+}
+.container #line{
+	margin-top:20px;
+}
+.container #email{
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+
+
+}
+.container #name{
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+
+}
+.container #user{
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+
+}
+.container #password{
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+
+}
+.container #sign{
+	margin-top: 20px;
+	height:40px;
+	color:white;
+	width:190px;
+	text-align:center;
+	border-radius:5px;
+	background-color:blue;
+}
+.container #write{
+	margin-top:20px;
+}

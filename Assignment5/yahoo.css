@@ -1,0 +1,93 @@
+
+body{
+	background-color:white;
+	font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+.container{
+	background-color:#d7f0f1;
+	height:550px;
+	width:400px;
+	margin:auto;
+	margin-top:30px;
+	text-align:center;
+}
+.container #yahoo{
+	font-family:'Forte', sans-serif;
+	color:#d200ff;
+	font-size:40px;
+
+}
+.container .inner #name{
+	padding: 7px 7px 7px 7px;
+	width:250px;
+	margin-top:20px;
+	background-color:#d7f0f1;
+	border: 1px solid #d7f0f1;
+
+}
+.container .inner #next{
+	padding: 7px 7px 7px 7px;
+	width:270px;
+	background-color:#018aff;
+	color:white;
+	font-size:20px;
+	border: 1px solid blue;
+	margin-top:20px;
+	border-radius:20px;
+
+}
+.container .inner #checkbox{
+	color:blue;
+
+
+}
+.container .inner #Create{
+	padding: 7px 7px 7px 7px;
+	width:270px;
+	margin-top:20px;
+	color: blue;
+	font-size:20px;
+	border: 1px solid blue;
+	border-radius:20px;
+
+}
+#p{
+	margin-top:10px;
+	font-size:15px;
+	color:blue;
+}
+.container .inner #google{
+	width:250px;
+	height:40px;
+	background-color:white;
+	font-size:20px;
+	margin-top:14px;
+	border:1px solid white;
+	border-radius:20px;
+}
+a{
+	text-decoration:none;
+}
+#sign{
+	font-size:30px;
+}
+#use{
+	margin-top:10px;
+}
+.container .logo{
+	width:280px;
+	margin-top: 20px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin:auto;
+	margin-left: 60px;
+	border:1px solid white;
+	border-radius:20px;
+	height:30px;
+	background-color: white;
+}
+.container .logo #google{
+	color: black;
+	font-size: 20px;
+}
