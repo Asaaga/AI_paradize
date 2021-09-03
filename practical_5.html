@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+</head>
+<body>
+
+	<div  id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+		</ol>
+
+		<div class="carousel-inner" role="listbox">
+			
+			<div class="item active">
+				<img src="images/africa.jpg" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="images/lion.jpg" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="images/bad.jpg" alt="Flower">
+			</div>
+
+			<div class="item">
+				<img src="images/cob.jpg" alt="Flower">
+			</div>
+		</div>
+
+	
+
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	</div>
+
+	<br><br>
+
+
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal	</button>
+
+	<a data-toggle="modal" data-target="#myModal">
+		<span class="fa fa-sign-in fa-2x"></span>Sign In
+	</a>
+
+	<div  id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+				<div class="modal-body">
+					<p>Some text in the modal.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<br><br>
+
+
+	<form row="form">
+		<div class="form-group">
+			<label for="email">Emal Address:</label>
+			<input type="eamil" class="form-control" name="" id="email">
+		</div>
+		<div class="form-group">
+			<label for="pwd">PassWord:</label>
+			<input type="password" class="form-control" name="" id="pwd">
+		</div>
+
+		<div class="form-group">
+			<label for="comment">Comment:</label>
+			<textarea type="password" class="form-control" rows="5" name="" id="comment"></textarea>
+		</div>
+
+		<div class="radio">
+			<label ><input type="radio" name="sex">Male</label>
+		</div>
+
+		<div class="radio">
+			<label ><input type="radio" name="sex">Female</label>
+		</div>
+
+		<div class="form-group">
+			<label for="age">Age Range:</label>
+			<select class="form-control" id="age">
+				<option>0-19</option>
+				<option>20-40</option>
+				<option>40-100</option>
+			</select>
+		</div>
+
+		<div class="checkbox">
+			<label ><input type="checkbox" name="">Remember me</label>
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+		<button type="submit" class="btn btn-danger">Reset</button>
+	</form>
+
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
