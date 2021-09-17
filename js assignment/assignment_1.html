@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	//my bio data
+	let biodata = {
+		name:"simon Asarga",
+		Occupation: "Student",
+		Age:80,
+		state:"Benue State",
+		LGA:"Gwer-West"
+	}
+	document.write("Name is "+biodata.name+ " from "+biodata.LGA+" of "+biodata.state+",am a "+biodata.Occupation+". Age is "+biodata.Age+".");
+	document.write("<br />");
+	document.write("<br />");
+
+	//biodata,circle,sphere,tripezium,parrallegram,rhombus,simple interest,future interest
+	//the area of a circle PI*radius*radius
+	const PI = (22/7);
+	let radius = 4;
+	document.write("The Area of a circle with radius "+radius+" is = "+(PI*radius*radius));
+	document.write("<br />");
+	//the area of a trapezium half(a+b)*h
+	const half = (1/2);
+	let a = 4;
+	let b = 8;
+	let h = 9;
+	document.write("The Area of a tripezium given a= "+a+", b= "+b+", h= "+h+" is =  "+(half*(a+b)*h));
+	document.write("<br />");
+	//the area of a sphere 4*PI*radius*radius
+
+	document.write("The Area of a Sphere given radius= "+radius+" is =  "+(4*PI*radius*radius));
+	document.write("<br />");
+	//the area of a Parallelogram BASE*HEIGHT
+	let base = 10;
+	let height = 20;
+	document.write("The Area of a parallelogram given base= "+base+ " height = "+ height+ " is =  "+base*height);
+	document.write("<br />");
+	//the area of a rhombus BASE*HEIGHT
+	
+	document.write("The Area of a Rhombus using base and height and given base= "+base+ ", height = "+ height+ " is =  "+base*height);
+	document.write("<br />");
+	//the Simple interest S= P × R × T
+	let p = 150;
+	let t = 8;
+	let r = (90/100);
+	document.write("The Simple interest is given as= "+(p*r*t)+" where principal= "+p+", percent_rate= "+r+", time= "+t);
+	document.write("<br />");
+
+	//the Future interest FV = PV*(1 + r / n)n t
+	let pv = 150;
+	let n = 80;
+	document.write("The Fututer interest is given as= "+(pv*((1+r/n)^(n*t)))+" where present value= "+pv+", percent_rate= "+r+", number of time amount is compounding= "+n);
+	document.write("<br />");
+	
+</script>
+</body>
+</html>
