@@ -1,0 +1,40 @@
+body{
+	background-color: blue;
+	font-family: Arial;
+	align-content: center;
+	text-align: center;
+}
+form{
+	margin-top: 20px;
+}
+p{
+	font-size: 50px;
+	font-family: Broadway;
+	width: 400px;
+	color: #9490d6;
+	margin: auto;
+	background-color: #6179f4;
+}
+.contactform input{
+	padding: 20px 20px 20px 20px;
+	margin-top:10px;
+	font-size: 20px;
+	background-color: #6179f4;
+	width:350px;
+}
+textarea{
+	height:150px;
+	width:390px;
+	margin-top: 10px;
+	font-size: 20px;
+	background-color: #6179f4;
+}
+button{
+	font-size:50px;
+	border-radius: 15px;
+	margin-top: 10px;
+	shape-outside: 20px;
+	background-color: blue;
+	color: #9490d6;
+	box-shadow: 10px 10px 10px 10px #6179f4;
+}
